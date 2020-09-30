@@ -1,0 +1,124 @@
+body {
+  padding-top: 5rem;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.heading {
+  padding: 6rem 0rem;
+  text-align: center;
+  margin: auto;
+  width:100%;
+  height:100vh;
+
+}
+#users-table{
+  position: relative;
+  top: 25px;
+}
+.account-container{
+  margin-top: 10%;
+}
+h1, h2, h3, h4, h5{
+  width: 100%;
+  padding: 10px 20px 0;
+}
+#wmp-container h1, #wmp-container h2, #wmp-container h3, #wmp-container h4{
+  padding: 0;
+}
+ul, form, h1, h2, h3, h4, h5{
+  width: 100%;  
+}
+a{
+  text-decoration: underline ;
+  color: #fff;
+}
+a:hover{
+  color: #34de5b !important;
+  
+}
+.nav-bar-right{
+  float: right; margin: 0 20px 0 0;
+}
+.navbar-dark .navbar-nav .nav-link, .navbar-brand, .btn-default{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-nav a{
+  text-decoration: none; 
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:  #34de5b;
+  
+}
+.navbar-nav.ul{
+  width: auto;
+}
+.nav-link{
+  width: 120%;
+  padding-right: 2rem !important;
+}
+p{
+  padding: 0 20px;
+}
+.logo{
+  margin: 0 20px 0 0;
+}
+.btn-default{
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-default:hover{
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+.navbar.fixed-top{
+  background: #000;
+}
+.inner-container{
+  padding: 0 15px 20px;
+  width: 100%;
+  margin: 0 auto 30px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 3px;
+}
+.inner-container .row:first-child , {
+  width: 100%;
+}
+.main-address input{
+  margin: 0 10px 0 20px;
+  width: 80%;
+  float: left;
+}
+.btn-green{
+  margin:  0 0 0 20px;
+  background: #28a7452e;
+}
+.unlogged{
+}
+.card{
+  background: none;
+  border: 1px solid #34de5b;
+}
+.card-body {
+  padding: 0;
+}
+.screen1{
+  width: inherit;
+  display: block;
+  margin:0 auto 10px;
+  max-width: 300px;
+}
+.modal-content{
+  background: #104e46e8;
+}
+.reflink{
+  margin: 30px auto 0;
+}
+.modal-dialog{
+  margin: 17% auto;
+}
+.powered-by{
+  position: absolute; bottom: 10px; left: 0; right: 0; margin: auto; width: 260px;
+}
