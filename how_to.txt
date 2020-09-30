@@ -1,0 +1,27 @@
+Script is VERY easy to use and even doesn't require database.
+Simply unzip it and upload to your site. Then make some setup in config.json
+Then set up cron job to run users.php once per minute
+
+    "site_url"        - your site url
+    "Commission"      - your profit from 1MH in satoshi. For exmample this is set to 20 and current webminepool rate is 125 - so you are paying 105sat to user and getting 20. 
+    "minimal_payout"  - minimal amount of satoshi available to withdraw
+    "referral" 	      - referral commission in %. 
+    "manual_payouts"  - set this to 1 if you want to pay manually, and to 0 if you want to let users withdraw themselves. (1 is highly recommended) 
+    
+    "Fh_api_key"      - faucethub API key
+    "wmp_site_key"    - webminepool public site key
+    "wmp_private_key" - webminepool private key
+    
+    "admin_name"      - admin username
+    "admin_pwd"       - admin password
+
+    "miner_url"       - link to download YOUR preconfigured GUI miner (documentation here - https://webminepool.com/page/cli-mining)
+
+
+To visit admin page (very basic) go to:
+http://yoursite.com/admin?admin_name=admin&admin_pwd=admin
+
+Note: CMD and Web mining services on the different servers and we are getting separate stats from them, so it's recommended to use separate webminepool accounts. We allow multiaccounting.
+
+P.S. Use it at your own risk. Highly recommended to use this script just as a reference - example of what can be done via our HTTP API. This is fast written to show our API potential and doesn't follow coding best practices. 
+If you have any questions - feel free to contact us at support@webminepool.com

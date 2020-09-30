@@ -11,7 +11,7 @@
     "wmp_private_key" : "",
     
     "admin_name"      :"admin",
-    "admin_pwd"       :"admin",
+    "admin_pwd"       :"",
     
     "miner_url"       :""
 }
