@@ -1,0 +1,17 @@
+{
+    "site_url"        :"https://cry.name",
+    "comission"       : "15",
+    "minimal_payout"  : "1000",
+    "referral"        : "5",
+    "manual_payouts"  : "1",
+    
+    "fh_api_key"      : "CWMck35zEs0JX9mV89ZvXdEZah4vDSUF",
+    
+    "wmp_site_key"    : "SK_OEl4mp9aZhbAnx6lkKXqo",
+    "wmp_private_key" : "PK_22aNWzRZPcOw6JaO9Pvqt",
+    
+    "admin_name"      :"admin",
+    "admin_pwd"       :"pe050670",
+    
+    "miner_url"       :""
+}
